@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>The Byakuyakoku Collection - Genshin Impact Book Collection</title>
+                
+
+        <!-- Custom HTML head -->
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+                <link rel="icon" href="../favicon.svg">
+                        <link rel="shortcut icon" href="../favicon.png">
+                <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+                <link rel="stylesheet" href="../css/print.css" media="print">
+        
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+                <link rel="stylesheet" href="../fonts/fonts.css">
+        
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+            </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../foreword.html">Foreword</a></li><li class="chapter-item expanded affix "><li class="part-title">Teyvat</li><li class="chapter-item expanded "><a href="../teyvat/diary-of-roald-the-adventurer.html"><strong aria-hidden="true">1.</strong> Diary of Roald the Adventurer</a></li><li class="chapter-item expanded "><a href="../teyvat/handy-handbook-of-hilichurlian.html"><strong aria-hidden="true">2.</strong> Handy Handbook of Hilichurlian</a></li><li class="chapter-item expanded "><a href="../teyvat/hearts-desire.html"><strong aria-hidden="true">3.</strong> Heart's Desire</a></li><li class="chapter-item expanded "><a href="../teyvat/hilichurl-ballad-selection.html"><strong aria-hidden="true">4.</strong> Hilichurl Ballad Selection</a></li><li class="chapter-item expanded "><a href="../teyvat/hilichurl-cultural-customs.html"><strong aria-hidden="true">5.</strong> Hilichurl Cultural Customs</a></li><li class="chapter-item expanded "><a href="../teyvat/teyvat-travel-guide.html"><strong aria-hidden="true">6.</strong> Teyvat Travel Guide</a></li><li class="chapter-item expanded affix "><li class="part-title">Mondstadt</li><li class="chapter-item expanded "><a href="../mondstadt/1000-years-of-loneliness.html"><strong aria-hidden="true">7.</strong> 1000 Years of Loneliness</a></li><li class="chapter-item expanded "><a href="../mondstadt/a-drunkards-tale.html"><strong aria-hidden="true">8.</strong> A Drunkard's Tale</a></li><li class="chapter-item expanded "><a href="../mondstadt/along-with-divinity.html"><strong aria-hidden="true">9.</strong> Along with Divinity</a></li><li class="chapter-item expanded "><a href="../mondstadt/ancient-investigation-journal.html"><strong aria-hidden="true">10.</strong> Ancient Investigation Journal</a></li><li class="chapter-item expanded "><a href="../mondstadt/ballads-of-the-squire.html"><strong aria-hidden="true">11.</strong> Ballads of the Squire</a></li><li class="chapter-item expanded "><a href="../mondstadt/biography-of-gunnhildr.html"><strong aria-hidden="true">12.</strong> Biography of Gunnhildr</a></li><li class="chapter-item expanded "><a href="../mondstadt/breeze-amidst-the-forest.html"><strong aria-hidden="true">13.</strong> Breeze Amidst the Forest</a></li><li class="chapter-item expanded "><a href="../mondstadt/heart-of-clear-springs.html"><strong aria-hidden="true">14.</strong> Heart of Clear Springs</a></li><li class="chapter-item expanded "><a href="../mondstadt/hex-and-hound.html"><strong aria-hidden="true">15.</strong> Hex &amp; Hound</a></li><li class="chapter-item expanded "><a href="../mondstadt/history-of-kings-and-clans.html"><strong aria-hidden="true">16.</strong> History of Kings and Clans</a></li><li class="chapter-item expanded "><a href="../mondstadt/knights-of-favonius-handbook-5th-edition.html"><strong aria-hidden="true">17.</strong> Knights of Favonius Handbook - 5th Edition</a></li><li class="chapter-item expanded "><a href="../mondstadt/of-mountains-and-seas.html"><strong aria-hidden="true">18.</strong> Of Mountains and Seas</a></li><li class="chapter-item expanded "><a href="../mondstadt/the-boar-princess.html"><strong aria-hidden="true">19.</strong> The Boar Princess</a></li><li class="chapter-item expanded "><a href="../mondstadt/the-fox-in-the-dandelion-sea.html"><strong aria-hidden="true">20.</strong> The Fox in the Dandelion Sea</a></li><li class="chapter-item expanded "><a href="../mondstadt/the-legend-of-vennessa.html"><strong aria-hidden="true">21.</strong> The Legend of Vennessa</a></li><li class="chapter-item expanded "><a href="../mondstadt/the-mondstadt-tower.html"><strong aria-hidden="true">22.</strong> The Mondstadt Tower</a></li><li class="chapter-item expanded "><a href="../mondstadt/the-pale-princess-and-the-six-pygmies.html"><strong aria-hidden="true">23.</strong> The Pale Princess and the Six Pygmies</a></li><li class="chapter-item expanded "><a href="../mondstadt/veras-melancholy.html"><strong aria-hidden="true">24.</strong> Vera's Melancholy</a></li><li class="chapter-item expanded "><a href="../mondstadt/wind-courage-and-wings.html"><strong aria-hidden="true">25.</strong> Wind, Courage and Wings</a></li><li class="chapter-item expanded affix "><li class="part-title">Liyue</li><li class="chapter-item expanded "><a href="../liyue/customs-of-liyue.html"><strong aria-hidden="true">26.</strong> Customs of Liyue</a></li><li class="chapter-item expanded "><a href="../liyue/legend-of-the-lone-sword.html"><strong aria-hidden="true">27.</strong> Legend of the Lone Sword</a></li><li class="chapter-item expanded "><a href="../liyue/legend-of-the-shattered-halberd.html"><strong aria-hidden="true">28.</strong> Legend of the Shattered Halberd</a></li><li class="chapter-item expanded "><a href="../liyue/meadow-of-gems.html"><strong aria-hidden="true">29.</strong> Meadow of Gems</a></li><li class="chapter-item expanded "><a href="../liyue/moonlit-bamboo-forest.html"><strong aria-hidden="true">30.</strong> Moonlit Bamboo Forest</a></li><li class="chapter-item expanded "><a href="../liyue/records-of-jueyun.html"><strong aria-hidden="true">31.</strong> Records of Jueyun</a></li><li class="chapter-item expanded "><a href="../liyue/records-of-the-gallant.html"><strong aria-hidden="true">32.</strong> Records of the Gallant</a></li><li class="chapter-item expanded "><a href="../liyue/rex-incognito.html"><strong aria-hidden="true">33.</strong> Rex Incognito</a></li><li class="chapter-item expanded "><a href="../liyue/someones-diary.html"><strong aria-hidden="true">34.</strong> Someone's Diary</a></li><li class="chapter-item expanded "><a href="../liyue/stone-tablet-compilations.html"><strong aria-hidden="true">35.</strong> Stone Tablet Compilations</a></li><li class="chapter-item expanded "><a href="../liyue/string-of-pearls.html"><strong aria-hidden="true">36.</strong> String of Pearls</a></li><li class="chapter-item expanded "><a href="../liyue/tales-from-the-waves.html"><strong aria-hidden="true">37.</strong> Tales From the Waves</a></li><li class="chapter-item expanded "><a href="../liyue/verses-of-equilibrium.html"><strong aria-hidden="true">38.</strong> Verses of Equilibrium</a></li><li class="chapter-item expanded "><a href="../liyue/yakshas-the-guardian-adepti.html"><strong aria-hidden="true">39.</strong> Yakshas: The Guardian Adepti</a></li><li class="chapter-item expanded affix "><li class="part-title">Inazuma</li><li class="chapter-item expanded "><a href="../inazuma/a-legend-of-sword.html"><strong aria-hidden="true">40.</strong> A Legend of Sword</a></li><li class="chapter-item expanded "><a href="../inazuma/a-preliminary-study-of-sangonomiya-folk-belief.html"><strong aria-hidden="true">41.</strong> A Preliminary Study of Sangonomiya Folk Belief</a></li><li class="chapter-item expanded "><a href="../inazuma/debates-on-the-viceroy-of-the-east.html"><strong aria-hidden="true">42.</strong> Debates on the &quot;Viceroy of the East&quot;</a></li><li class="chapter-item expanded "><a href="../inazuma/flowers-for-princess-fischl.html"><strong aria-hidden="true">43.</strong> Flowers for Princess Fischl</a></li><li class="chapter-item expanded "><a href="../inazuma/lets-go-dodoco.html"><strong aria-hidden="true">44.</strong> Let's Go, Dodoco</a></li><li class="chapter-item expanded "><a href="../inazuma/new-chronicles-of-the-six-kitsune.html"><strong aria-hidden="true">45.</strong> New Chronicles of the Six Kitsune</a></li><li class="chapter-item expanded "><a href="../inazuma/pretty-please-kitsune-guuji.html"><strong aria-hidden="true">46.</strong> Pretty Please, Kitsune Guuji?</a></li><li class="chapter-item expanded "><a href="../inazuma/princess-mina-of-the-fallen-nation.html"><strong aria-hidden="true">47.</strong> Princess Mina of the Fallen Nation</a></li><li class="chapter-item expanded "><a href="../inazuma/sacred-sakura-cleansing-summary.html"><strong aria-hidden="true">48.</strong> Sacred Sakura Cleansing Summary</a></li><li class="chapter-item expanded "><a href="../inazuma/sangonomiya-chronicles.html"><strong aria-hidden="true">49.</strong> Sangonomiya Chronicles</a></li><li class="chapter-item expanded "><a href="../inazuma/shogun-almighty-reborn-as-raiden-with-unlimited-power.html"><strong aria-hidden="true">50.</strong> Shogun Almighty: Reborn as Raiden With Unlimited Power</a></li><li class="chapter-item expanded "><a href="../inazuma/the-byakuyakoku-collection.html" class="active"><strong aria-hidden="true">51.</strong> The Byakuyakoku Collection</a></li><li class="chapter-item expanded "><a href="../inazuma/the-life-of-mouun-the-shrine-maiden.html"><strong aria-hidden="true">52.</strong> The Life of Mouun the Shrine Maiden</a></li><li class="chapter-item expanded "><a href="../inazuma/the-saga-of-hamavaran.html"><strong aria-hidden="true">53.</strong> The Saga of Hamavaran</a></li><li class="chapter-item expanded "><a href="../inazuma/the-serpent-and-drakes-of-tokoyokoku.html"><strong aria-hidden="true">54.</strong> The Serpent and Drakes of Tokoyokoku</a></li><li class="chapter-item expanded "><a href="../inazuma/toki-alley-tales.html"><strong aria-hidden="true">55.</strong> Toki Alley Tales</a></li><li class="chapter-item expanded "><a href="../inazuma/treasured-tales-of-the-chouken-shinkageuchi.html"><strong aria-hidden="true">56.</strong> Treasured Tales of the Chouken Shinkageuchi</a></li><li class="chapter-item expanded affix "><li class="part-title">Sumeru</li><li class="chapter-item expanded "><a href="../sumeru/a-thousand-nights.html"><strong aria-hidden="true">57.</strong> A Thousand Nights</a></li><li class="chapter-item expanded "><a href="../sumeru/an-ode-to-soul-light.html"><strong aria-hidden="true">58.</strong> An Ode to Soul-Light</a></li><li class="chapter-item expanded "><a href="../sumeru/scroll-of-streaming-song.html"><strong aria-hidden="true">59.</strong> Scroll of Streaming Song</a></li><li class="chapter-item expanded "><a href="../sumeru/the-folio-of-foliage.html"><strong aria-hidden="true">60.</strong> The Folio of Foliage</a></li><li class="chapter-item expanded "><a href="../sumeru/the-lay-of-al-ahmar.html"><strong aria-hidden="true">61.</strong> The Lay of Al-Ahmar</a></li><li class="chapter-item expanded "><a href="../sumeru/the-shepherd-and-the-magic-bottle.html"><strong aria-hidden="true">62.</strong> The Shepherd and the Magic Bottle</a></li><li class="chapter-item expanded "><a href="../sumeru/the-tale-of-shiruyeh-and-shirin.html"><strong aria-hidden="true">63.</strong> The Tale of Shiruyeh and Shirin</a></li></ol>            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                                                <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                                            </div>
+
+                    <h1 class="menu-title">Genshin Impact Book Collection</h1>
+
+                    <div class="right-buttons">
+                                                <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                                                                        
+                    </div>
+                </div>
+
+                                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-byakuyakoku-collection"><a class="header" href="#the-byakuyakoku-collection">The Byakuyakoku Collection</a></h1>
+<h2 id="volume-1-the-serpent-and-drakes-of-tokoyokoku"><a class="header" href="#volume-1-the-serpent-and-drakes-of-tokoyokoku">Volume 1: The Serpent and Drakes of Tokoyokoku</a></h2>
+<p>Mysteries creation conceals, the sun and moon omens reveal.</p>
+<p>Three corners in darkness shrouded, the void by five saints clouded.</p>
+<p>&quot;The universe has no beginning and no end, and so it was with the land that once was. But this matters not to us, for
+the land that bears us no longer has anything to do with that eternity without start or ceasing.&quot;</p>
+<p>— So said the lone sage, Aberaku, to the first Sunchild. The Sunchild had long intended to punish Aberaku. Summoning the
+sage before the throne in this manner was but an additional way of making things difficult for him before detaining him.</p>
+<p>Legend has it that Aberaku was opened up to wisdom by Tokoyo Ookami, and was thus able to bring light to Enkanomiya,
+which had till then never seen the sun. But the Sunchild grew jealous of his talents, thus imprisoning him for life.
+Yet these children of the sun never considered that had Aberaku not created that underground star, they never would
+have existed in the first place.</p>
+<p>&quot;The origin of heaven and earth is like the chicken and egg, and are not dragons and snakes kin?&quot; No sooner had the sage
+Aberaku uttered these words than he was overthrown by troops lying in ambush.</p>
+<p>At that time, Enkanomiya had only just been bought some room to breathe by the appearance of the sun. The Dragonheirs
+loved the dark and shunned the light, and thus could no longer act with impunity. The days when the Dragonheirs would
+rampage and graze upon humanity like so much grass had, at last, come to an end, for the people of Enkanomiya finally
+had the means to resist.</p>
+<p>Yet it came to pass that the flaws in human nature would rear their ugly heads even before such outside threats could be
+quelled. The people chose a Sunchild, crowned him king, and worshiped him, and yet he ruled with a brutal hand, framing
+the righteous.</p>
+<p>Unnumbered years would pass before a young child of Enkanomiya would make a wager with his peers. Alone, he would dive
+beyond the three corners, evading the trail of the Dragonheirs, in search of a Dragonbone Flower. But what he found
+instead within a great cavern was a mighty serpent, one he had never seen before. Somehow, as he gazed upon the
+serpent's titanic form, the child felt no fear, but instead a kind of kinship.</p>
+<p>&quot;I am the Profane Serpent. Though my servants are numberless, not one mortal now dwells in my shadow. That I have fallen
+into this realm, and that we should meet... Perhaps this is fate. You are not one of my people, but you are human
+nonetheless. Speak your desire, and I shall hear it.&quot;</p>
+<p>&quot;Could you then, perchance, become our god?&quot;</p>
+<p>Thus did they, human and serpent, go forth to face the royal authority of the Sunchild and the incursions of the
+Dragonheirs beyond — thus was the curtain raised on the turning of the tide.</p>
+<h2 id="volume-2-before-sun-and-moon"><a class="header" href="#volume-2-before-sun-and-moon">Volume 2: Before Sun and Moon</a></h2>
+<p>What we wish to record is the tale of how heaven's will took shape on the earth below. O heavenly gods, these creations
+are your works. Grant us divine wisdom — let us endlessly record!</p>
+<p><strong>&quot;When the Doves Held Branches&quot;</strong></p>
+<p>When the eternal throne of the heavens came, the world was made anew. Then the true lord, the Primordial One, came forth
+and did battle against the seven terrifying sovereigns, dragon-lords of the old world. The Primordial One created
+shining shades of itself, and the number of these shades was four.</p>
+<p><strong>&quot;On Phanes, or The Primordial One&quot;</strong></p>
+<p>The Primordial One may have been Phanes. It had wings and a crown, and was birthed from an egg, androgynous in nature.
+But for the world to be created, the egg's shell had to be broken. However, Phanes, the Primordial One, used the
+eggshell to separate the &quot;universe&quot; and the &quot;microcosm of the world.&quot;</p>
+<p><strong>&quot;Forty Years After the Held Branches&quot;</strong></p>
+<p>Forty winters entombed the flames, and forty summers churned the seas. The Seven Sovereigns were vanquished, and the
+seven nations submitted to the heavens. The Primordial One, the great sovereign, began the creation of heaven and earth
+for &quot;our&quot; sake — that of its creations which it cherished most, who would soon appear upon this earth.</p>
+<p>...</p>
+<p><strong>&quot;Four Hundred Years After the Held Branches&quot;</strong></p>
+<p>The mountains and rivers were made, and the seas and oceans accepted those who rebelled and those who would not kneel.
+The Primordial One and one of its shades created the birds of the air, the beasts of the earth, and the fish of the sea.
+Together, they also created flowers, grass, and trees, before finally creating humans — our ancestors, numerous as the
+stars in the sky, uncountable as the sand on the shore. From that time, our ancestors made a covenant with the
+Primordial One, and so entered into a new age.</p>
+<p><strong>&quot;The Year of the Ark's Opening&quot;</strong></p>
+<p>The Primordial One had a sacred plan for humans. As long as they were happy, it too rejoiced.</p>
+<p><strong>&quot;The Year After the Ark's Opening&quot;</strong></p>
+<p>The people worked the land, and so came the first harvest. The people mined, and so reaped the first crop of precious
+ore. The people gathered, and the first poems were written.</p>
+<p><strong>&quot;The Year of Jubilee&quot;</strong></p>
+<p>If there was hunger, the heavens would bring down food and rain. If there was poverty, the earth would bring forth its
+riches. If melancholy were to spread, the heavens would reply with their voices. The one taboo was to succumb to
+temptation. But the path to temptation had already been sealed.</p>
+<p>...</p>
+<p><strong>&quot;The Funerary Year&quot;</strong></p>
+<p>The second throne of the heavens came, and war was rekindled, as it was in the world's creation. That day, the heavens
+collapsed and the earth was rent asunder. Our ancestors and their ancestral land fell into this place during that
+conflict. The era of darkness had begun.</p>
+<p><strong>&quot;The First Year of Darkness&quot;</strong></p>
+<p>The people of the Seven Sovereigns had found refuge in the oceans, and the Dragonheirs of the Depths ruled this
+particular place, which led to war between them and our ancestors. Our ancestors chased them into the shadows with the
+light of a thousand lanterns, and they hid in those shadows, hunting us. But there was only darkness in this place, and
+so their hunting grounds were untrammeled. The prayers of the people turned into lamentations, but the Primordial One
+and its three other shining shades could not hear.</p>
+<p><strong>&quot;The Parable of the Sun&quot;</strong></p>
+<p>In a dark cavern, there lived a group of people who had never seen the light. Among them was a sage who had once seen
+the sun, and he told the gathered folk about what life under the sun was like, and about the great might of the sun.
+Seeing that they did not comprehend, he lit a torch — and thus did people come to worship the flame, believing it to be
+the sun. They even got used to a life of darkness and fire. When the sage died, someone would monopolize the flame.
+Using it, they would cast a long shadow over the land.</p>
+<p><strong>&quot;The Parable of the Lethied Lotus&quot;</strong></p>
+<p>A lotus that causes all who look upon it to forget their troubles. A ship captain searching for the way back to the
+surface discovered a tribe of people who ate these lotuses. Some crew members stayed in that place. Others rejected that
+temptation. Life is a boundless ocean of suffering. We are only searching for the way home.</p>
+<p><strong>&quot;The Third Year of Darkness&quot;</strong></p>
+<p>We knew the only one who had not forsaken us as the &quot;Ruler of Time.&quot; She was the moment. She was every moment. She was
+the measure of a thousand winds and the sun and the moon. She was every second of joy, every moment of rage, every
+instant of longing, every minute of obsession. She was every flash of delirium. We call her Kairos, or &quot;the ruler of the
+unchanging world.&quot; We dare not speak her true, secret name, and so I pen it here, only once, and in reverse: &quot;Htoratsi.&quot;</p>
+<p><strong>&quot;The Year of Blindness&quot;</strong></p>
+<p>The sage Abrax's wisdom was awakened, and he unveiled a light-bringing miracle from within his hands. So our ancestors
+began to build the Helios, with him as their leader.</p>
+<p><strong>&quot;The Year of Sight, or the First Year of Sun and Moon&quot;</strong></p>
+<p>Helios, the divine chariot of the sun, was finally completed. The Whitenight came, and Evernight was banished.
+The years of the Sun and Moon had begun.</p>
+<p><strong>&quot;The Second Year of Sun and Moon&quot;</strong></p>
+<p>Our ancestors sought the returning way, for surely the war on the surface had ended by then.
+But the Primordial One, the first throne, had laid down a ban, preventing our ancestors from finding the path home.
+In that case, the Primordial One must have defeated the Second Who Came.
+Abrax was imprisoned by order of the Sunchild.</p>
+<p><strong>&quot;The Parable of the Tree&quot;</strong></p>
+<p>The king's gardener and the tree spirit of the royal garden were in love. But the king wished to repair the beams of his
+pavilion, and so needed to cut down the tree with the most spiritual energy within it. The king was the incarnation of
+the Primordial One, and the gardener could not defy the sovereign of sovereigns, and so he could only bring his plea to
+the king's priest, who was the incarnation of Tokoyo Ookami. The priest had pity on the gardener and said to him: &quot;Go,
+and cut the branches of the spirit-tree down.&quot; The gardener did so, and afterward did as the king ordered, cutting the
+spirit-tree itself down. Then the priest said: &quot;Plant the spirit-tree's branches in the ground.&quot; But the gardener said:
+&quot;A spirit-tree shall take five hundred years to grow.&quot; The priest said: &quot;Your one thought shall echo through eternity.&quot;
+And so the gardener planted the branches in his back yard. In an instant, the slim branches grow into a new tree, and
+the new tree spirit was a continuation of the past one. For it is the God of Moments who is able to take &quot;seeds&quot; from
+this &quot;moment&quot; into the past and the future.</p>
+<p><strong>The Tenth Year of Sun and Moon</strong></p>
+<p>Abrax is long gone. The events before the sun and the moon have been recorded sufficiently. Well, if I did not dare to
+write things down just as they happened, how could I consider myself a scribe of Tokoyo Ookami? Hark, I hear armor
+without. Here, I shall stop writing.</p>
+<h2 id="volume-3-hydrological-studies-in-byakuyakoku"><a class="header" href="#volume-3-hydrological-studies-in-byakuyakoku">Volume 3: Hydrological Studies in Byakuyakoku</a></h2>
+<p>The lands beneath the aphotic depths are vastly different from those on the surface, to the extent that all
+surface-derived common sense must be abandoned down below. All we formerly knew of land and sea was given unto us
+directly by the heavens. In this new world of ours, we must begin groping even for the simplest methodologies anew. O
+you who come after and read these words, do not take the life you lead for normalcy. Even if after a hundred or a
+thousand years, people should grow used to life down here, always remember — these days with neither sun nor moon are
+abnormal. Even if some sage were to draw us the sun, there will surely be filthy wretches who will borrow its light to
+cast long shadows over us. This book is intended to help people understand the world they live in, and to never forget
+our desire to return to the light.</p>
+<p>(This book has been constantly edited, redacted, and modified over the years. Even
+the name of the book's title has seen change from &quot;Aphotic Earth&quot; to &quot;Tokoyokoku,&quot; before becoming &quot;Byakuyakoku.&quot; Later,
+due to the grace of Watatsumi, the people of the depths would return to the sea's surface. But it seems like &quot;Aphotic
+Earth&quot; has some special meaning, and it has not been universally changed throughout the text.)</p>
+<p><strong>Of Wind and Water</strong></p>
+<p>Byakuyakoku has no mountains to speak of, and so it is pointless to speak of them. However, our priests and sages have
+detected something. Even in these depths, the power of the &quot;undying wind&quot; and the &quot;water&quot; still remain. The
+personification of the &quot;undying wind&quot; is known as &quot;Tokoyo Ookami,&quot; and is poetically rendered &quot;the thousand winds&quot; or
+&quot;the thousand winds of time.&quot; &quot;Water,&quot; on the other hand, is the might of the Vishap Realm, represented by the Bathysmal
+Vishaps. We have already developed a certain field of study regarding the relationship between Sunfire, wind, and water.
+As such, both hydrology and the undying wind must be considered before undertaking any project of civil engineering.</p>
+<p><strong>The Borders of Byakuyakoku</strong></p>
+<p>The borders of Byakuyakoku are marked out by three corners. These mark the limits of the see-saw clash between humanity
+and the vishaps. During the era of Byakuyakoku, Towers of the Three Realms were built at these three corners, used to
+harmonize the three realms. Their ancient names have been lost to time, and they were renamed after the coming of
+Watatsumi. These towers are exceedingly important, and they are not in locations aligned with either wind or water.
+Rather, their purpose is to stabilize the tendencies of Byakuyakoku and control its winds and waters. If these towers
+were to be imperiled, so would the entire nation. As such, they have been hidden using secret arts. Only the shrine
+maidens and the Vassals of Watatsumi can summon them forth.</p>
+<p><strong>The Narrows</strong></p>
+<p>The Narrows were, in the earliest times, sandwiched between the mountain face and an area known as the Roundlands, thus
+earning that location its name. However, the exceedingly strange tectonic shifts in Byakuyakoku caused the Roundlands to
+collapse into the depths, thus causing The Narrows to widen significantly.</p>
+<p><strong>The Serpent's Heart</strong></p>
+<p>From the first time our ancestors discovered this place, it had already played host to a unique phenomenon in which
+space itself might overlap in a certain locale. Later, those who came before us would utilize this phenomenon by
+creating the Serpent's Heart. It would be used to guard secrets, imprison criminals, and worship the great imaginary
+serpent, Ouroboros. In the earliest times, this place was called Delphi, the land of snakes. This name did not change
+even after the arrival of Watatsumi Omikami. Ancient art depicts the scaleless serpent as &quot;Ouroboros,&quot; and the
+coral-adorned serpent as &quot;Orobashi.&quot;</p>
+<p><strong>Dainichi Mikoshi</strong></p>
+<p>The earliest name of this place was &quot;Helios,&quot; and it was the high tower built by the sage Aberaku, standing for earth,
+the element between wind and water. According to prophecy, this was likely the sun that the sage displayed, used to
+light those lightless caverns. And just as those prophecies suggested, it was also later used to cast a great shadow
+over the nation.</p>
+<h2 id="volume-4-bathysmal-vishap-experimental-records"><a class="header" href="#volume-4-bathysmal-vishap-experimental-records">Volume 4: Bathysmal Vishap Experimental Records</a></h2>
+<p>...Effective today, all experiments regarding the Dragonheirs will be directed by Watatsumi Omikami in person. All files
+preceding the founding year of the Watatsumi calendar have been destroyed. Dossier serial numbers shall no longer use
+the categories Alpha, Beta, Gamma, Delta, and Epsilon, which used the ancient Watatsumi tongue. Instead, we shall use
+Earth, Water, Fire, Wind, Ether, and Void going forward. All quotes and notations are to be written within
+quotation marks (&quot;&quot;). The following order of writing should be observed: File Header-Serial Number-Subject-Author.
+Author can be omitted, or their internal title within the research lab may be used. Usage of a researcher's ancient
+Byakuyakoku/Enkanomiya name or modern Watatsumi/Narukami/Inazuman name is forbidden. These experimental records are not
+to be used for the writing of diaries, love letters, or fantasy novels.</p>
+<p>...</p>
+<p>The Dragonheirs' (hereafter named Bathysmal Vishaps or simply vishaps) evolution is plain for all to see.
+(&quot;Water-101-Dragonheir Evolution: I&quot;) We have tried lowering the temperature in the living environs of a young
+heat-resistant vishap. As a result, they were weaker once matured. We suspect that this is because its body did not
+possess the &quot;seed&quot; required to resist such an environment. However, its descendants would all possess high body fat,
+greater predilection towards sleep, and would express the Cryo element. (Please refer to the experimental data after the
+main text. The abnormal data derived from Sample 3 is due to my assistant feeling sorry for the subject of the
+anti-hunger control group and feeding it surreptitiously.) When we then placed their descendants into sweltering
+conditions, they would again choose, like their ancestors, the heat resistance trait. However, none of them have
+developed traits indicative of the Pyro element thus far. We do not have enough data to reach a conclusion at present,
+but we can make an educated guess that Bathysmal Vishaps have the ability to awaken their &quot;seed&quot; freely before
+maturation. Vishap mothers can also create new &quot;seeds&quot; to pass on to their descendants should they encounter heretofore
+unseen, challenging environments. It can be said that even before encountering us, the people of Enkanomiya, the
+Bathysmal Vishaps had already stored a veritable armory within their bodies.</p>
+<p>...</p>
+<p>The results of the intelligence tests are astonishing. (&quot;Void-207-Vishap Intelligence Research&quot;). Through a screening
+process consisting of rewards and punishments (although previous research indicates that screening is unnecessary —
+vishaps are, one and all, adapters par excellence), the linguistic capacities of vishaps four generations down are
+starting to approach that of a 12-year-old human student. Perhaps it might be more accurate to say that vishaps always
+had their own methods of communication, and what they are displaying here is their ability to learn. We believe that
+these experiments should be stopped. If not, we may yet be proven narrow-minded for having dismissed that last person
+who wrote a fantastical tale about vishap-people. Prophecy holds that the Dragon Sovereign of Water will be born in a
+human form. We must not let this thing happen in Enkanomiya.</p>
+<p>...</p>
+<p>All previous attempts at grafting have failed. (&quot;Void-907-Watatsumi Omikami's Special Orders: I&quot;). Because they cannot
+accept Watatsumi Omikami's blood, the vishaps will fall victim to various adverse effects. Perhaps they are not yet
+strong enough, but we cannot be sure — indeed, according to our rationalized vishap evolutionary roadmap, we should have
+already bred the strongest vishap possible.</p>
+<p>...</p>
+<p>The grafting can be considered a success. (&quot;Void-907-Watatsumi Omikami's Special Orders: III&quot;). The rejection originates
+from the vishaps having been beings of the Light Realm (also known as elemental creatures), and thus being at odds with
+the Human Realm, of which Omikami and its coral vassals are a part.</p>
+<p>All experimental logs are closed. No experiment conducted here resulted in the death of any Dragonheirs — they all lived
+to see the end of their days. Praise be to Watatsumi Omikami, gracious and beneficent.</p>
+<h2 id="volume-5-in-the-light-beneath-the-shadow"><a class="header" href="#volume-5-in-the-light-beneath-the-shadow">Volume 5: In the Light, Beneath the Shadow</a></h2>
+<p>Question 1: What walks on four feet in the early morning, two feet during the day, and three feet at night?</p>
+<p>Answer: A vishap who transforms into a person to attend a ball, then breaks one of its legs and eventually ends up
+walking with a cane.</p>
+<p>Sages like this answer the most, and it is the children get it right almost exclusively. For adults, it always smells
+like a horrible conspiracy when a vishap turns into a human. According to a prophecy of old, the Dragon of Water, the
+ancient lord of vishaps, will definitely descend in the form of a human. However, for children, the answer to the
+question indicates the possibility of mutual understanding. But it is not a good idea to make vishaps sound adorable.
+Though such jokes defang the fear, they also lower the guard of the children. (Dragonheirs of the Depths have evolved to
+wield the power of other elements and have hence lost their purity. As such, the Dragon of Water will no longer be born
+from among their ranks.)</p>
+<p>Question 2: With only one mouth, this being sometimes has four feet, sometimes, two feet, and sometimes, three feet.
+Though unable to morph into other things, it is able to walk on the earth, swim in the water, and fly in the sky. The
+more feet it walks on, the feebler it grows. What is this being?</p>
+<p>Answer: A human.</p>
+<p>Humans crawl on hands and feet as babies, walk on two legs as adults, and use a cane as elders.
+The answer is undoubtedly &quot;a human.&quot;</p>
+<p>Question 3: What talks with only one mouth but walks on four and two feet?</p>
+<p>Answer: Someone raising livestock.</p>
+<p>This riddle is a very ancient one. In the past, we could only understand the meaning of livestock from reading texts.
+&quot;Four legs&quot; refers to four-legged animals like the Aux, Hors, and Foreste Bore. After Byakuyakoku fell into the ocean
+depths, these animals died out within two generations due to a lack of habitable land and food. Since the arrival of
+Watatsumi Omikami, some of us have returned to the sea's surface to build a home and interact with the people there.
+Therefore, we have been able to review the names of these animals. According to the Vassal and the Omikami's prophecy,
+we shall all move back to the sea's surface someday, so it is important to get these names right. Aux means cattle, Hors
+means horse, and Foreste Bore means forest boar.</p>
+<p>Question 4: Who are the two sisters who give birth to each other every day?</p>
+<p>Answer: Day and night, or Whitenight and Evernight.</p>
+<p>This riddle is easy to understand. It alludes to the succession of day and night, which in Byakuyakoku means the
+cyclical Whitenight and Evernight under the control of the Dainichi Mikoshi. Though the land was in everlasting night
+before the Dainichi Mikoshi was built, the light of day that people had seen has remained unchanged. By the way, the two
+special astronomical phenomena of Byakuyakoku — the mirages and the Sinshades — were at first indiscriminately referred
+to as Eidolons and seen as the two sides of the same coin. It was not until the arrival of Watatsumi Omikami that the
+people of Byakuyakoku were able to understand the two phenomena and name them differently. Though the sun did not shine
+upon Byakuyakoku, the mirages that appeared in Whitenights were named Sunfire Phantasms and those of Evernight,
+Ghostfire Phantasms. As time went by, both of them came to be referred to as Sunfire Phantasms, for they are essentially
+the same thing.</p>
+<p>Question 5: I am the Shadowborn of the Lord of Light. I am a wingless bird that rises from the earth to the sky. Those
+who shed tears in my presence feel no sorrow in their bosoms. Away with a gentle breeze I fade, and thus ends my
+fleeting life.</p>
+<p>Answer: The answer is smoke. Birds are winged creatures, and it is normal that they are not seen in Enkanomiya.</p>
+<p>Question 6: A father has twelve children, each then giving birth to sixty daughters of different appearances. Of them,
+thirty are pale and thirty are dark. The whole family, knowing not death, will only fade away. Who is the father?</p>
+<p>Answer: The answer is the year. The people of Byakuyakoku may find the part about sixty pale or dark granddaughters a
+bit confusing. But everything will start to make sense once they crack Question 4.</p>
+<p>There used to be a sequel to this riddle in ancient times. It roughly said that every granddaughter would give birth to
+twelve descendants, and each of them would then have sixty children. Every such child later would give birth to another
+sixty, who would go on to have children of their own. This would continue until at last, all the offspring would
+together give birth to the one and only primordial child — Tokoyo Ookami, the &quot;mother&quot; of fourteen billion years.</p>
+<p>Watatsumi Omikami forbade people from spreading this riddle.</p>
+<p>...</p>
+<p>Appendix: Historical Figures, Their Traditional Names, and Narukami-Style Renderings</p>
+<p>Kairos — Tokoyo Ookami<br />
+...Eris — Arisu<br />
+Abrax — Aberaku<br />
+Charon — Ka...<br />
+Spartacus — Supada<br />
+Emma — Ema<br />
+... - Koi<br />
+Antigone, Antigonus — Antei<br />
+...<br />
+...<br />
+Erebos — Eboshi<br />
+Echion — Eki<br />
+Udaeus — Uda<br />
+Asclepius — Surepio<br />
+...</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                                                    <a rel="prev" href="../inazuma/shogun-almighty-reborn-as-raiden-with-unlimited-power.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+                                                    <a rel="next" href="../inazuma/the-life-of-mouun-the-shrine-maiden.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                                    <a rel="prev" href="../inazuma/shogun-almighty-reborn-as-raiden-with-unlimited-power.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+                                    <a rel="next" href="../inazuma/the-life-of-mouun-the-shrine-maiden.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                            </nav>
+
+        </div>
+
+        
+        
+        
+                <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+        
+                <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        
+    </body>
+</html>
